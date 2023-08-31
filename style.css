@@ -1,3 +1,4 @@
+
 .location{
     width: 300px;
     padding-left: 35px;
@@ -241,6 +242,60 @@ td{
 }
 
 
+@media (min-width: 768px) and (max-width: 1349px){
+    nav{
+        flex-direction: column;
+        background-color: white;
+        position: static;
+    }
+
+    .location{
+        margin-top: 20px;
+    }
+
+    .v-line,.hero-section>img{
+        display: none;
+    }
+
+    .searchbar{
+        width: 800px;
+        margin-top: 15px;
+    }
+
+    .searchbar>input{
+        width: 750px;
+    }
+
+    td{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 393px){
+    nav{
+        flex-direction: column;
+        background-color: white;
+        position: static;
+    }
+
+    .location{
+        margin-top: 20px;
+    }
+
+    .v-line,.hero-section>img{
+        display: none;
+    }
+
+    .searchbar{
+        width: 300px !important;
+        margin-top: 15px;
+    }
+
+    .searchbar>input{
+        width: 200px !important;
+    }
+}
+
 @media screen and (max-width:768px) {
     nav{
         flex-direction: column;
@@ -273,30 +328,5 @@ td{
     .footer-section>.row2>.logo-section , .footer-section>.row2>.download-section{
         justify-content: space-around !important;
         margin: 10px;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 1349px){
-    nav{
-        flex-direction: column;
-        background-color: white;
-        position: static;
-    }
-
-    .location{
-        margin-top: 20px;
-    }
-
-    .v-line,.hero-section>img{
-        display: none;
-    }
-
-    .searchbar{
-        width: 900px;
-        margin-top: 15px;
-    }
-
-    .searchbar>input{
-        width: 850px;
     }
 }
