@@ -53,9 +53,10 @@ nav>.my-btn>.my-login{
 }
 
 .searchbar>input{
-    width: 860px;
+    width: 80%;
     background-color: transparent;
     border: none;
+    outline: none;
     height: 45px;
 }
 
